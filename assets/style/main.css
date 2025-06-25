@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Prosto+One&display=swap');
+
+:root {
+  --efodin-background: #828efd;
+}
+
+* {
+  /* font-family: "Prosto One", sans-serif; */
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 700;
+  font-style: normal;
+}
+
+body {
+  max-width: 1414px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: var(--efodin-background);
+}
+
+header {
+  display: flex;
+  justify-self: center;
+}
+
+.header__title {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
