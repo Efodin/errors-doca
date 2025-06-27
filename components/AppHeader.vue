@@ -4,7 +4,7 @@
       <span
         v-for = "(item, index) in rainbow"
         :key = "index"
-        :style = "{ color: item.color }"
+        :style = "{ color: item.color, textShadow: `2px 4px 12px ${item.color}`}"
       >
         {{ item.char }}
       </span>
