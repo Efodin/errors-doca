@@ -3,14 +3,14 @@
     <div class="tabs">
       <button 
         class="tabs__button"
-        :class="{ acitve: activeTab === 'first' }"
+        :class="{ 'active': activeTab === 'first'}"
         @click="activeTab = 'first'"
       >
         WhatsApp
       </button>
       <button 
         class="tabs__button"
-        :class="{ acitve: activeTab === 'second' }"
+        :class="{ 'active': activeTab === 'second' }"
         @click="activeTab = 'second'"
       >
        Telegram

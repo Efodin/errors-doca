@@ -9,7 +9,6 @@
 }
 
 * {
-  /* font-family: "Prosto One", sans-serif; */
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400, 700;
@@ -47,6 +46,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.normal-font {
+  font-family: "Prosto One", sans-serif;
 }
 
 .tabs {
@@ -153,4 +156,10 @@ main {
   max-height: 90%;
   box-shadow: 0 5px 15px #ffe7f6;
   border-radius: 12px;
+}
+
+.active {
+  box-shadow: 0 2px 3px #000;
+  transition: ease-in 0.2s;
+  filter:saturate(1.5);
 }
